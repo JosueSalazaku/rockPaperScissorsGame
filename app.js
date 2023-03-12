@@ -49,5 +49,5 @@ function getResult() {
     if (computerChoice === 'scissors' && userChoice === "paper") {
         result = 'You issa loser my boy!' 
     }
-    
+    resultDisplay.innerHTML = result
 }
